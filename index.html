@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>ESModules in the browser</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>ESModules in the browser</h1>
+    <p>
+      Playing around with
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"
+        >ES Module's</a
+      >
+      dynamically called
+      <code style="display: inline;">import()</code> method.
+    </p>
+
+    <p>
+      Using these directly in the browser allows you to build complex
+      applications that would typically require bundling, without then going and
+      having to split the bundle and lazy load.
+    </p>
+
+    <p><a href="https://caniuse.com/es6-module">Can I use ES6 Module</a></p>
+
+    <div id="app"></div>
+    <div id="imported"></div>
+    <script type="module" src="src/index.ts"></script>
+  </body>
+</html>
